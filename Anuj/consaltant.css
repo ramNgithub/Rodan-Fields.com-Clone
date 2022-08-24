@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/****************** Navbar Start ***************************/
+#navbar::before{
+    content:"";
+    background-color:white;
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    z-index: -1;
+    opacity: .4;
+}
+#navbar{
+    width: 100%;
+    /* border: 1px solid red; */
+ height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: -50px; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+#navbar ul{
+    display: flex;
+
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+  
+}
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: rgb(37, 34, 34);
+}
+#navbar ul li a:hover{
+    color: yellowgreen;
+    background-color: rgb(68, 60, 60);
+}
+#navbar button{
+    padding: 12px 37px;
+    background-color: rgb(26, 21, 21);
+    color: white;
+    border: 0;
+    margin-left: -20px;
+}
+
+/****************** Navbar End ***************************/
+
+/******************* JOIN SECTION START ********************/
+
+#join_top{
+    display: flex;
+}
+#join_left{
+   background-color: #6B96B7A6;
+   height: auto;
+}
+
+#join_left h2{
+   
+    width: 60%;
+    margin:150px 100px 30px 100px;
+}
+#join_left p{
+    width: 60%;
+    margin-left: 100px;
+    margin-bottom: 80px;
+    font-size: 16px;
+ }
+ #join_left button{
+    padding: 12px 70px;
+    background-color: white;
+    color:black;
+    margin-left: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+ }
+ #join_right img{
+  
+    height: 100%;
+ }
+ #join_bottom{
+    margin-top: 10px;
+    display: flex;
+    border: 20px solid white;
+    background-color: rgba(226,211,204,0.898039);
+ }
+ #join_bottom_left{
+    width: 40%;
+ }
+ #join_bottom_left img{
+    max-width: 550px;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    /* position: absolute; */
+    height: 100%;
+ }
+ #join_bottom_right{
+    margin: 30px 60px;
+ }
+ #join_bottom_right h2{
+    margin-bottom: 30px;
+ }
+ /* #join_bottom_right p{
+    font-size: 17px;
+ } */
+ #join_bottom_right >p{
+    margin-bottom: 20px;
+ }
+
+ #box{
+    display: flex;
+   width: 100%;
+   margin: auto;
+   gap: 20px;
+ }
+ #box p{
+    margin-top: 20px;
+ }
+#box .anc{
+    margin-top: 200px;
+}
+#box a{
+    color: black;
+}
