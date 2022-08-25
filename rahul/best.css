@@ -37,13 +37,13 @@
 #mid{
     width: 100%;
     height: auto;
-    margin-top: 75px;
+    margin-top: 95px;
     
 }
 #container{
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    gap: 25px 10px;
     justify-content: center;
 }
 #container>div{
@@ -54,8 +54,9 @@
 }
 #container>div>img{
     width: 50%;
-    height: auto;
+    height: 150px;
     justify-content: center;
+    margin-left: 45px;
 }
 #container>div>h1{
     padding: 5px;
@@ -63,12 +64,68 @@
 }
 #container>div>h2{
     padding: 7px;
+    font-size: 20px;
 }
 #container>div>p{
     padding: 7px;
     line-height: 17px;
 }
 #container>div>button{
-    padding: 5px 90px;
+    padding: 7px 109px;
     font-size: 17px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 1px;
+}
+#container>div>h6{
+    padding: 7px;
+    color: rgb(92, 91, 91);
+    font-size: 13px;
+}
+#large{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#imge{
+    margin-top: 10px;
+
+}
+#imgo{
+    margin-top: 10px;
+
+}
+#imge>img{
+    width: 70%;
+
+    padding-left: 190px;
+}
+#imgo>h1{
+    margin-top: 150px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+}
+#imgo>p{
+    padding-left: 25px;
+    padding-right: 75px;
+    line-height: 23px;
+}
+#imgo>h4{
+    padding-left: 25px;
+    margin-top: 15px;
+}
+#imgo>button{
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 7px 109px;
+    font-size: 17px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    border: solid 1px;
+}
+#imgo>h2{
+    margin-top: 15px;
+    padding-left: 25px;
 }
