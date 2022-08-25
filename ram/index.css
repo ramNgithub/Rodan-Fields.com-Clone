@@ -145,3 +145,80 @@
     font-size: 17px;
     color: black;
 }
+
+#parent{
+    /* border:solid red; */
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: block;
+    transition: all 1000ms ease 0s;
+    transform: translate3d(0px,0px,0px); */
+    
+}
+.child{
+    width:20%;
+    height: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: none;
+}
+.child>img{
+    
+    height:100%;
+    width:100%;
+}
+   #parent>button{
+      font-size: 25px;
+      
+      border: none;
+      height: 100%;
+      padding: 10px;
+      
+     
+   }
+   #findConsultant{
+    height: 170px;
+    /* border:solid blue; */
+    margin-top: 20px;
+    background-color:rgb(227, 239, 247);
+    padding-top: 12px;
+
+   }
+   #consultantChild1{
+    /* border: solid rgb(180, 178, 178); */
+    height:100px;
+    width:80%;
+    margin: auto;
+    margin-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+   }
+   /* #consultantChild1>div{
+    /* border:solid blue; */
+
+   /* } */
+   #consultantChild1>div:nth-child(1){
+    padding-top: 12px;
+   }
+   #consultantChild1>div>p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+   }
+   #consultantChild1>div>li{
+    font-size: 18px;
+    
+   }
+   #consultantChild1>div:nth-child(2){
+    padding-top: 20px;
+   }
+   #consultantChild1>div>button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 110px;
+   }
