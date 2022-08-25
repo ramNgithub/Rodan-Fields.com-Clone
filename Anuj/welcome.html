@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome page</title>
+    <link rel="stylesheet" href="./Style/welcome.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="head">
+        <h3>Step 1 of 5: Sponsor</h3>
+        <hr
+          style="
+            width: 40%;
+            margin: auto;
+            height: 5px;
+            background-color: rgb(214, 214, 223);
+            border: none;
+          "
+        />
+      </div>
+
+      <div id="wlcm">
+        <div id="wlcm_left">
+          <div id="wlcm_name"></div>
+          <p>
+            It’s time to choose your Sponsor. They will introduce you to R+F and
+            will help launch + grow your business. Search for them below.
+          </p>
+          <input
+            type="text"
+            id="query"
+            oninput="getData()"
+            placeholder="Search by Name, Consultant ID, Or Business Name "
+          />
+        </div>
+        <div id="wlcm_right">
+          <img
+            src="https://www.rodanandfields.com/en-us/medias/Sponsor-Request-Card-Desktop.jpg?context=bWFzdGVyfHJvb3R8MTk4NzAyfGltYWdlL2pwZWd8aDhjL2hjNS8xMzk3NzYzNDAxMzIxNC5qcGd8YjQzMWQzYzkxZTY0MDQwNjQ3MTRiZGM3YzY2ODNmZDhlNWMzYWUzNTE1MGYzN2U0ZjdkNWE0ODJkN2JlYjAyYg"
+            alt=""
+          />
+          <h4>Don't Have a Sponsor?</h4>
+          <p>
+            Your Sponsor is your go-to resource for any + all questions about
+            your R+F business. If you don’t already know someone, we’ll suggest
+            one of our Consultants for you.
+          </p>
+          <button>REQUEST A SPONSOR</button>
+        </div>
+      </div>
+      <p>
+        NOTE: The Consultant’s contact information is made available on this
+        page for the sole and explicit purpose of conducting business related to
+        the Rodan + Fields program. Use of Consultant contact information for
+        any other purposes constitutes with Rodan + Fields contractual
+        relationships and is subject to prosecution.
+      </p>
+    </div>
+  </body>
+</html>
+<script src="./script/welcome.js"></script>

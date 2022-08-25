@@ -1,0 +1,44 @@
+h3 {
+    text-align: center;
+    padding: 20px 0 10px 0;
+  }
+
+  #wlcm {
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+  }
+  #wlcm_left {
+    width: 100%;
+    /* border: 1px solid red; */
+  }
+  #wlcm_left > p {
+    margin-top: 30px;
+  }
+  /* #wlcm_name{
+    margin-left: ;
+  } */
+  #wlcm_left > input {
+    width: 50%;
+    margin-left: 80px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+  #wlcm_right {
+    height: 500px;
+    border: 1px solid rgb(196, 196, 223);
+  }
+  #wlcm_right > h4,
+  p,
+  button,#wlcm_name {
+    margin-left: 50px;
+  }
+  #wlcm_right > button {
+    padding: 10px 180px;
+    background-color: white;
+    border: 1px solid black;
+  }
+  #wlcm_right > img {
+    width: 100%;
+  }
