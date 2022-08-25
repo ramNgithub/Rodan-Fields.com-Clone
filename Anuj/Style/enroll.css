@@ -1,0 +1,46 @@
+#container {
+    display: flex;
+    width: 100%;
+    height: 800px;
+    /* border: 1px solid red; */
+    background-color: peachpuff;
+    color: #3f3f3f;
+  }
+
+  #enrol_left > h1,
+  h2 {
+    margin: 50px;
+  }
+  #enrol_left > p {
+    margin: 20px 50px;
+  }
+  #form > p {
+    margin-left: 50px;
+  }
+  #form > label,
+  input {
+    margin-left: 50px;
+    margin-top: 20px;
+    /* border: none; */
+  }
+  #fname,
+  #lname,
+  #email {
+    margin-left: 20px;
+    padding: 10px 20px;
+  }
+  #email {
+    padding: 8px 60px;
+  }
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    margin-left: 50px;
+    padding: 10px 80px;
+  }
+  #enrol_bottom {
+    width: 90%;
+    margin: auto;
+  }
