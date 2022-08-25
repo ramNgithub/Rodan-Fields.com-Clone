@@ -1,0 +1,45 @@
+.top{
+    margin: auto;
+    width: 100%;
+    height: auto;
+    display: grid;
+}
+.top div input{
+    width: 100%;
+    opacity: 0%;
+}
+.line{
+    border-bottom: 1px solid black;
+    display: block;
+ }
+.mid {
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.mid div{
+    margin: auto;
+    
+}
+.mid li a{
+    display: inline-block;
+    
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.last{
+    display: flex;
+    
+}
+.mid div div img{
+    /* position: absolute; */
+    width: 40%;
+    height: 40%;
+    padding-left: 60px;
+}
