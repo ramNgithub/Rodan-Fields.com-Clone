@@ -5,17 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BECOME A CONSULTANT</title>
-    <link rel="stylesheet" href="consaltant.css" />
+    <link rel="stylesheet" href="./Style/consaltant.css" />
   </head>
   <body>
     <nav id="navbar">
       <ul>
         <li class="page"><a href="#join">Why Join?</a></li>
-        <li class="page"><a href="#">Our Community</a></li>
-        <li class="page"><a href="#">Getting Started</a></li>
-        <li class="page"><a href="#">FAQs</a></li>
+        <li class="page"><a href="#community_section">Our Community</a></li>
+        <li class="page"><a href="#get_start_section">Getting Started</a></li>
+        <li class="page"><a href="#fAQ_section">FAQs</a></li>
       </ul>
-      <div id="btn"><button>ENROLL NOW</button></div>
+      <div id="btn" onclick="enrollNow()"><button>ENROLL NOW</button></div>
     </nav>
 
     <section id="join">
@@ -26,7 +26,7 @@
             Join the #1 Premium Skincare Regimen Brand in the U.S. 2018-2021*
             and start changing skin + lives.
           </p>
-          <button>JOIN NOW</button>
+          <button id="joinNow" onclick="joinNow()">JOIN NOW</button>
         </div>
         <div id="join_right">
           <img
@@ -61,7 +61,12 @@
                 and access to expertise. Plus, it’s a low cost of entry +
                 there’s no inventory to carry.
               </p>
-              <p class="anc"><a href="https://www.rodanandfields.com/en-us/assets/us/compensation-plan.pdf">How Compensation Works</a></p>
+              <p class="anc">
+                <a
+                  href="https://www.rodanandfields.com/en-us/assets/us/compensation-plan.pdf"
+                  >How Compensation Works</a
+                >
+              </p>
             </div>
             <div>
               <p>
@@ -75,7 +80,12 @@
                 Care 2022 Edition; all channels; Premium Skin Care Regimen
                 includes Sets and Kits; retail value RSP terms
               </p>
-              <p><a href="https://www.rodanandfields.com/en-us/our-story/r-and-f-difference">The R+F Difference</a></p>
+              <p>
+                <a
+                  href="https://www.rodanandfields.com/en-us/our-story/r-and-f-difference"
+                  >The R+F Difference</a
+                >
+              </p>
             </div>
             <div>
               <p>
@@ -83,11 +93,76 @@
                 growth potential. The global skincare market is valued at $139B.
                 We’re only in 3 countries right now with big plans to expand.
               </p>
-              <p class="anc"><a href="https://www.rodanandfields.com/en-us/assets/us/at-a-glance.pdf">R+F By Numbers</a></p>
+              <p class="anc">
+                <a
+                  href="https://www.rodanandfields.com/en-us/assets/us/at-a-glance.pdf"
+                  >R+F By Numbers</a
+                >
+              </p>
             </div>
           </div>
         </div>
       </div>
     </section>
+
+    <section id="community_section">
+      <h1>Our Community</h1>
+      <div id="community"></div>
+    </section>
+
+    <section id="get_start_section">
+      <h1>Get Started in 3 Simple Steps</h1>
+      <div id="get_start"></div>
+    </section>
+
+    <section id="fAQ_section">
+
+      <!-- <div class="box"> -->
+        <p class="heading">Want to learn more?</p>
+        <div class="faqs">
+          
+           <details>
+              <summary>What are the advantages of becoming an Independent Consultant for Rodan + Fields?</summary>
+              <p class="text">If you want the best-looking skin of your life, connections to inspiring people, personal development, a flexible schedule and your own business in the billion-dollar skincare industry, R+F may be the opportunity for you. As R+F develops more innovations and expands globally, you can be a part of our future growth by becoming an Independent Consultant.</p>
+           </details>
+           <hr>
+           <details>
+              <summary>How can I become an R+F Independent Consultant?</summary>
+              <p class="text">You can enroll through another Consultant’s Personal Website or through the <a href="">Enrollment page</a> on our website. All you need to become an R+F Independent Consultant is the Rodan + Fields Business Starter Pack! This Business Starter Pack empowers you to jumpstart your R+F journey with business-building tools and samples of our top-selling products designed to help you introduce the R+F brand to prospective Customers and team members and set your business up for success.</p>
+           </details>
+           <hr>
+           <details>
+              <summary>What is PULSE by Penny?</summary>
+              <p class="text">PULSE by Penny is your go-to tool to manage and grow your business – anywhere, anytime and from any device. All Consultants have free access to PULSE by Penny Basic and for the monthly price of $24.95, plus applicable taxes, you can subscribe to PULSE by Penny Pro and access a suite of enhanced features.
+
+                All new Consultants will receive PULSE by Penny Pro for free during their enrollment month and for the following three months. You may choose to subscribe to Pro at any time during or after your free trial, but you must subscribe before your trial period has ended if you wish to maintain access to the activity history and information you’ve accumulated in the PULSE by Penny Pro version. For more information on PULSE by Penny, including your Pro free trial, please see the <a href="">PULSE by Penny Terms and Conditions.</a></p>
+           </details>
+           <hr>
+           <details>
+              <summary>What are the differences between PULSE by Penny Basic and Pro?</summary>
+              <p class="text">All Consultants receive complimentary access to PULSE by Penny Basic to complete their business-building needs, such as checking on upcoming orders, viewing their team’s progress and getting a high-level dashboard of their personal performance. With PULSE by Penny Pro, you also receive a suite of enhanced features, such as:
+
+                • Your Daily, where you see a list of curated tasks based on your data and momentum.
+                • R+F SOCIAL, an all-in-one social media tool to help you grow your network and share content about your business and products with ease.
+                • The full R+F Virtual site for exclusive training videos and analysis tracking as you share with prospective business partners.
+                • Free shipping on all orders of 100 Sales Volume (SV) or more.
+                
+                That’s just a sample of what is available with PULSE by Penny Pro. To see the full breakdown between Pro and Basic, please see the <a href="">PULSE by Penny Comparison Chart.</a></p>
+           </details>
+           <hr>
+           <details>
+              <summary>What is CRP?</summary>
+              <p class="text">The Consultant Replenishment Program (CRP) is an optional program offered to Consultants to simplify the process of ordering R+F products. Subscribing to CRP means you will receive regular monthly shipments of your chosen products at your special Consultant price. Your credit card is automatically charged each time. You can easily cancel or edit your CRP order anytime.</p>
+           </details>
+           <hr>
+           <details>
+              <summary>What’s the VIP Box?</summary>
+              <p class="text">The Very Important Product (VIP) Box is a one-time offer allowing new Consultants to order personalized products at an additional 30% off the Consultant price. Though the discount is good for up to 60 days after enrollment, if ordered on the same day as enrollment, complimentary two-day shipping is included. This is the best way to experience our amazing products at an incredible value.</p>
+           </details>
+           <hr>
+        </div>
+     <!-- </div> -->
+    </section>
   </body>
 </html>
+<script src="./script/consultant.js"></script>

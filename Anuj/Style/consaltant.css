@@ -3,6 +3,9 @@
     padding: 0;
 }
 /****************** Navbar Start ***************************/
+#navbar{
+   position: sticky;
+}
 #navbar::before{
     content:"";
     background-color:white;
@@ -12,16 +15,20 @@
     z-index: -1;
     opacity: .4;
 }
+
 #navbar{
     width: 100%;
     /* border: 1px solid red; */
- height: 70px;
+    height: 70px;
     display: flex;
     align-items: center;
+
     justify-content: space-around;
+    
     /* margin-left: -50px; */
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 #navbar ul{
     display: flex;
 
@@ -55,6 +62,7 @@
 /******************* JOIN SECTION START ********************/
 
 #join_top{
+
     display: flex;
 }
 #join_left{
@@ -131,4 +139,137 @@
 }
 #box a{
     color: black;
+}
+
+
+/*************** Community Section ***************/
+#community_section{
+   height: 600px;
+   background-color:#B0DED7A6
+   
+}
+#community_section>h1{
+   text-align: center;
+   padding: 30px;
+   
+}
+#community{
+   width: 98%;
+   height: 80%;
+   margin: auto;
+   overflow: scroll;
+   display: flex;
+   gap: 20px;
+   /* overflow: hidden; */
+
+}
+#community>div>h5{
+   width: 60%;
+   margin: auto;
+   font-size: 20px;
+   margin-top: -200px;
+   margin-bottom: 20px;
+}
+#community>div>p{
+   width: 60%;
+   margin: auto;
+   font-size: 17px;
+
+}
+#community>div>img{
+  height: 100%;
+}
+
+/************************** Get Stated Section *************************/
+#get_start_section>h1{
+   text-align: center;
+   margin-top: 20px;
+   padding: 20px;
+}
+#get_start{
+   display: flex;
+   gap: 30px;
+   width: 95%;
+   margin: auto;
+   
+}
+#get_start>div>img{
+   width: 400px;
+   height: 200px;
+}
+#get_start>div>p{
+   width: 80%;
+   margin: auto;
+   font-size: 17px;
+}
+#get_start>div>h5{
+   width: 80%;
+   margin: auto;
+   margin-top: 20px;
+   font-size: 20px;
+   margin-bottom: 20px;
+}
+
+/************************* FAQ SECTION ********************/
+
+
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+body{
+   background: #f6f6f6;
+}
+
+#fAQ_section{
+   width: 60%;
+   margin: 100px auto;
+   /* background: #fff; */
+   border-radius: 7px;
+   /* box-shadow: 1px 2px 4px rgba(0,0,0,.3); */
+}
+
+
+
+#fAQ_section .heading{
+   /* background: white; */
+   border-radius: 7px 7px 0px 0px;
+   padding: 10px;
+   color: black;
+   /* text-align: center; */
+   font-family: "Rubik";
+}
+
+.heading{
+   font-size: 25px;
+   margin-left: 20px;
+}
+
+.faqs{
+   padding: 0px 40px 40px;
+}
+
+::-webkit-details-marker{
+   float: right;
+   margin-top: 3px;
+}
+
+details{
+   /* background: #f6f6f6; */
+   padding: 10px 20px;
+   border-radius: 7px;
+   margin-top: 20px;
+   font-family: "Rubik";
+   font-size: 16px;
+   letter-spacing: 1px;
+   cursor: pointer;
+}
+details>p{
+   margin: 30px;
+   
+}
+details>summary{
+   font-size: 20px;
+}
+
+details summary{
+   outline: none;
 }
