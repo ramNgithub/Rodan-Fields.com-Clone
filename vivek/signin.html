@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="signin.css">
+</head>
+<body>
+    <div>
+        <form>
+            <p>Email</p>
+            <input type="email" id="email">
+            <p>Password<a class="a" href="#">Forgot Password</a></p>
+            <input type="password" id="password">
+            <p>This site is protected by reCAPTCHA and the <a href="#">Google Privacy Policy</a> and <a href="#">Terms of Service</a> apply.</p>
+            <input type="submit" value="SIGN IN">
+        </form>     
+    </div>
+</body>
+   <script>
+    let form = document.querySelector("form");
+    let signupLS=JSON.parse(localStorage.getItem("signup")) ||[];
+    form.addEventListener("submit",function(event){
+       event.preventDefault();
+       if(signupLS===0){
+        alert("no user till now")
+        return
+       }
+       let obj={
+                email:form.email.value,
+                password:form.password.value,
+            }
+            let isSignedin=false;
+            signupLS.forEach(function(ele){
+                if(ele.email===obj.email && ele.password===obj.password){
+                    isSignedin=true;
+                    localStorage.setItem("signin",JSON.stringify(ele));
+                    alert("sign up Sucessfull");
+                    window.location.href="navbar.html"
+                }
+            })
+            if(isSignedin==false){
+                alert("user does not Exist");
+            }
+    })
+   </script>
+</html>
