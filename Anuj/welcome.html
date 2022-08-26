@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome page</title>
-    <link rel="stylesheet" href="./Style/welcome.css">
+    <link rel="stylesheet" href="./Style/welcome.css" />
   </head>
   <body>
     <div id="container">
@@ -32,9 +32,13 @@
           <input
             type="text"
             id="query"
-            oninput="getData()"
+            oninput="getSearchBarData()"
             placeholder="Search by Name, Consultant ID, Or Business Name "
           />
+
+          <div id="search_bar">
+
+          </div>
         </div>
         <div id="wlcm_right">
           <img

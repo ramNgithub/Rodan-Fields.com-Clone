@@ -8,4 +8,5 @@ function getData(user){
 
     document.getElementById("wlcm_name").append(h1)
 }
-getData(user)
+getData(user);
+
