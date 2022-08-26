@@ -6,7 +6,8 @@
 }
 .top div input{
     width: 100%;
-    opacity: 0%;
+    height: 40px;
+    border-color:#fff;
 }
 .line{
     border-bottom: 1px solid black;
@@ -26,20 +27,25 @@
 }
 .mid li a{
     display: inline-block;
-    
     text-decoration: none;
     color: black;
     margin-left: 20px;
     margin-right: 20px;
     font-size: 12px;
 }
+.mid li{
+    list-style: none;
+    margin: 10px;
+}
 .last{
-    display: flex;
-    
+    display: flex; 
+}
+.last p,br{
+    margin: 10px;
 }
 .mid div div img{
     /* position: absolute; */
     width: 40%;
     height: 40%;
-    padding-left: 60px;
+    padding-left: 100px;
 }

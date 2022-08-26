@@ -14,7 +14,6 @@ body>div{
 
 }
 form {
-    margin-top: 40px;
     width: 300px;
     margin-left: 20px;
     
@@ -22,7 +21,7 @@ form {
 form input{
     width: 100%;
     display: flex;
-    margin-top: 30px;
+    /* margin-top: 20px; */
     font-size: 18px;
     padding: 7px;
     border: none;
@@ -35,7 +34,7 @@ form p .a{
 input[type="submit"]{
     width: 320px;
     height: 35px;
-    margin-top: 30px;
+    /* margin-top: 20px; */
     justify-content: center;
     border: none;
     background-color: rgb(17, 15, 19);
@@ -43,4 +42,11 @@ input[type="submit"]{
     font-size: 18px;
     border-radius: 5px;
 }
-
+p{
+    margin-top: 40px;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: gray;
+    
+}
