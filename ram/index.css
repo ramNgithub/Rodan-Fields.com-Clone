@@ -234,6 +234,7 @@
 
 
 
+ 
    nav{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     }
@@ -253,8 +254,7 @@
        align-items: center;
    }
    .navbar img{
-    margin-left: 380px;
-    cursor: pointer;
+    margin-left: 295px;
    }
    .navbar h3{
     margin-left: 20px;
