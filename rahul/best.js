@@ -193,3 +193,7 @@ let container=document.getElementById("container")
     localStorage.setItem("pto",JSON.stringify(el));
     window.location.href="pto.html";
   }
+
+  function home(){
+    window.location.href="/endurable-advice-917/ram/index.html";
+  }
