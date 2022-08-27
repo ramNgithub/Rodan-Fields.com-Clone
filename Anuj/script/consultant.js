@@ -111,3 +111,7 @@ let getStart=[
     
     })
 }
+
+function func(){
+  window.location.href="/endurable-advice-917/ram/index.html"
+}
