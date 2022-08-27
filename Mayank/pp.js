@@ -5,3 +5,6 @@ for(i=0;i<accordion.length;i++){
         this.classList.toggle('active')
     })
 }
+function func(){
+    window.location.href="/endurable-advice-917/ram/index.html"
+}
