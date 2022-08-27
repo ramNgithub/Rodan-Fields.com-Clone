@@ -63,9 +63,9 @@
     font-size: 13px;
     cursor: pointer;
 }
-#footMain{
+/* #footMain{
     border:solid red;
-}
+} */
 
 
 
@@ -78,6 +78,7 @@
     align-items: center;
     margin-top: 50px;
     /* padding-bottom: 25px; */
+    
 }
 
 .threeSlid{
@@ -143,9 +144,11 @@ margin-bottom: 55px;
 
 
 #discover{
-    border:solid red;
+    /* border:solid red; */
     height: 570px;background-color: rgb(253, 247, 239);
     display: flex;
+    margin-top: 15px;
+    
 }
 #discover>div:nth-child(1){
     /* border:solid ; */
@@ -181,6 +184,14 @@ justify-content: center;
     
 
 }
+
+#slid_img_main>button{
+    height: 20%;
+    padding: 12px;
+    font-size: 25px;
+    border:none;
+    background-color: rgb(249, 250, 252);
+}
 .slidDiv{
     height:98%;
     /* border:solid blue; */
@@ -212,6 +223,7 @@ justify-content: center;
     font-size: 18px;
     padding: 8px 90px;
     background-color: white;
+    cursor: pointer;
 }
 #stars{
     display: flex;
@@ -221,10 +233,87 @@ justify-content: center;
 #stars>img{
      width:60px;
 }
+#countNumber{
+    font-size: 15px;
+    margin-left: -20px;
+    margin-right: 20px;
+    color: white;
+    background-color: black;
+    padding: 1px;
+    border-radius: 100px
+}
    </style>
    
 </head>
 <body onload="show()"  >
+
+
+
+
+
+
+
+    <nav class="navbar">
+        <div>
+            <h3>Find A Cunsultant</h3>
+        </div>
+        <img onclick="inde()" src="https://www.rodanandfields.com/en-us/medias/rf-logo.svg?context=bWFzdGVyfGltYWdlc3w3MzczfGltYWdlL3N2Zyt4bWx8aW1hZ2VzL2g2MC9oYWIvODgyMjE0NzE4NjcxOC5zdmd8YjNmMmU2YTg5MTM0NTMzM2Y2ODg2ZmRkZTJhNmY2OWZhYmYyYjk5NWQxODkxODFiYjVkY2MxY2NjOWRlMzA5OA">
+        <div id="right">
+            <div class="icon">
+                <p><a href="search.html">Search</a></p>
+                <p><a href="signin.html">Signin</a></p>
+                <p><a href="signup.html">Signup</a></p>
+                <p><a href="cart.html">Cart <div id="countNumber"></div></a></p>
+                <p><a href="#">English</a></p>
+            </div>
+        </div>
+    </nav>
+    <span class="line"></span>
+    <nav class="middle">
+        <ul class="topp">
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">BEST SELLERS</a></li>
+            <li class="dropdown">
+                <a href="#">FEATURED</a>
+                <ul class="menu-area">
+                    <ul>
+                        <li><a href="#">Special Offers</a></li>
+                        <li><a href="#">Before and Afters</a></li>
+                        <li><a href="#">New Total RF Serum</a></li>
+                        <li><a href="#">Spotless for Teens</a></li>
+                        <li><a href="#">Self-Care Essentials</a></li>
+                    </ul>
+                   
+                </ul>
+            </li>
+            <li class="dropdown" ><a href="#">OUR STORY</a>
+                <ul class="menu-area">
+                    <ul>
+                    <li><a href="#">R+F Difference</a></li>
+                    <li><a href="#">Personalized Service</a></li>
+                    <li><a href="#">Explore Our Regimens</a></li>
+                    <li><a href="#">Our Founders</a></li>
+                    <li><a href="#">Our Impact</a></li>
+                    </ul>    
+                </ul>
+            </li>
+            <li><a href="/endurable-advice-917/Mayank/pp.html">PERKS PROGRAM</a></li>
+            <li><a href="#">BECOME A CONSULTANT</a></li>
+            <li><a href="#">BLOG</a></li>
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
     <div id="header">
         <!-- <div id="heading"></div> -->
         <img src="https://www.rodanandfields.com/en-us/medias/22-lash-activation-HP-GIF-Desktop.gif?context=bWFzdGVyfHJvb3R8MTYwNTUzMXxpbWFnZS9naWZ8aDdlL2gwMS8xNTUzOTU1MDk0NTMxMC5naWZ8Yzg0MDgxMWI3Mjc4ZjY2NjE2YjIzMGE4YmQ5NzFmZGFhM2QyOTFhZWIzNzU4ZTY5YTZkZTE2YjE5ZmNkNDQ1MQ" alt=""/>
@@ -445,6 +534,45 @@ justify-content: center;
         <button>Shop all products</button>
     </div>
 
+    
+    <div id="slideImg3">
+        <button onclick="moveL()">&lt;</button>
+    <div class="threeSlid" id="d1">
+        <div>
+            <p>Ultimate Eye <br> Cream</p>
+            <p>6,000 five-star reviews and <br> counting!</p>
+            <a href="">Shop Now</a>
+        </div>
+        <img src="https://www.rodanandfields.com/en-us/medias/Homepage-PromoModule-MFEC-Desktop.jpg?context=bWFzdGVyfHJvb3R8MzgyNDU0fGltYWdlL2pwZWd8aDJjL2hkZi8xMzg1NDY1ODIzMjM1MC5qcGd8YjQwNjFlZTlkMDUwNTM2ZDUxZTI2YzE5ZmFhMzM4ZjlkYmQxMTNhNDg2NzJjMDc5NzhmNTEzMTYzYWY5NGI2NA" alt="">
+    </div>
+
+
+
+    <div class="threeSlid" id="d2">
+        <div>
+            <p>Self-Care <br> Essentials</p>
+            <p>Enjoy a beauty retreat at home <br> with restorative and protective <br> skincare treatments.</p>
+            <a href="">Shop Now</a>
+        </div>
+        <img src="https://www.rodanandfields.com/en-us/medias/Promo-Self-Care.jpg?context=bWFzdGVyfHJvb3R8Mzk2NjI0fGltYWdlL2pwZWd8aGQzL2gzNC8xMjg4OTE4ODc5NDM5OC5qcGd8NzIxN2Y5NThiZWNlYmM4MDUwYTIzM2YyM2FlMDRiOGY1YTAzNTdkYjk1ZjNjMmZiNTlmNmY2MTdkYTA4ODJmMQ" alt="">
+    </div>
+
+
+
+
+    <div class="threeSlid" id="d3">
+        <div>
+            <p>Bundle + Save!</p>
+            <p>Save 20% on Lash Boost when <br> you buy a skincare Regimen of <br> your choice.</p>
+            <a href="">Shop Now</a>
+        </div>
+        <img src="https://www.rodanandfields.com/en-us/medias/Promo-Lash-Boost.jpg?context=bWFzdGVyfHJvb3R8MTc2MDI4fGltYWdlL2pwZWd8aDExL2gxMC8xMjg4OTE4ODg1OTkzNC5qcGd8NDI5NjQ3N2JhYTYwNDdmMTMyZDgwY2U0NWZiNGNhYWFkYzgwNWM2YWNhNjRhMzYyOWFmOTBhMTFjMjgxMGNkMg" alt="">
+    </div>
+    <button onclick="moveR()">&gt;</button>
+
+</div>
+
+
     <div id="threeData">
         <div class="doctor">
             <img src="https://www.rodanandfields.com/en-us/medias/DrImage-HP-USCA.jpg?context=bWFzdGVyfHJvb3R8MTU1NTk2fGltYWdlL2pwZWd8aGI5L2gxYS8xNTM1MjQ4MTM0OTY2Mi5qcGd8MDhhZTg4YmI3NzkwNjYyYmE3OGU5MjMwNGFlMTIxMDFjMDI5N2YyMjliOGZlNmMzYWFhNTg5MmM3YTRkNzY4Nw" alt="">
@@ -465,7 +593,7 @@ justify-content: center;
              <a href="">Our Money-Back Guarantee</a>
         </div>
     </div>
-
+    <h1 style="font-size:25px">@Rodanandfields</h1>
     <div id="parent" >
         <button onclick="moveLeft()">&lt;</button>
         <div class="child" id="c1">
@@ -511,43 +639,6 @@ justify-content: center;
     </div>
 
 
-    <div id="slideImg3">
-        <button onclick="moveL()">&lt;</button>
-    <div class="threeSlid" id="d1">
-        <div>
-            <p>Ultimate Eye <br> Cream</p>
-            <p>6,000 five-star reviews and <br> counting!</p>
-            <a href="">Shop Now</a>
-        </div>
-        <img src="https://www.rodanandfields.com/en-us/medias/Homepage-PromoModule-MFEC-Desktop.jpg?context=bWFzdGVyfHJvb3R8MzgyNDU0fGltYWdlL2pwZWd8aDJjL2hkZi8xMzg1NDY1ODIzMjM1MC5qcGd8YjQwNjFlZTlkMDUwNTM2ZDUxZTI2YzE5ZmFhMzM4ZjlkYmQxMTNhNDg2NzJjMDc5NzhmNTEzMTYzYWY5NGI2NA" alt="">
-    </div>
-
-
-
-    <div class="threeSlid" id="d2">
-        <div>
-            <p>Self-Care <br> Essentials</p>
-            <p>Enjoy a beauty retreat at home <br> with restorative and protective <br> skincare treatments.</p>
-            <a href="">Shop Now</a>
-        </div>
-        <img src="https://www.rodanandfields.com/en-us/medias/Promo-Self-Care.jpg?context=bWFzdGVyfHJvb3R8Mzk2NjI0fGltYWdlL2pwZWd8aGQzL2gzNC8xMjg4OTE4ODc5NDM5OC5qcGd8NzIxN2Y5NThiZWNlYmM4MDUwYTIzM2YyM2FlMDRiOGY1YTAzNTdkYjk1ZjNjMmZiNTlmNmY2MTdkYTA4ODJmMQ" alt="">
-    </div>
-
-
-
-
-    <div class="threeSlid" id="d3">
-        <div>
-            <p>Bundle + Save!</p>
-            <p>Save 20% on Lash Boost when <br> you buy a skincare Regimen of <br> your choice.</p>
-            <a href="">Shop Now</a>
-        </div>
-        <img src="https://www.rodanandfields.com/en-us/medias/Promo-Lash-Boost.jpg?context=bWFzdGVyfHJvb3R8MTc2MDI4fGltYWdlL2pwZWd8aDExL2gxMC8xMjg4OTE4ODg1OTkzNC5qcGd8NDI5NjQ3N2JhYTYwNDdmMTMyZDgwY2U0NWZiNGNhYWFkYzgwNWM2YWNhNjRhMzYyOWFmOTBhMTFjMjgxMGNkMg" alt="">
-    </div>
-    <button onclick="moveR()">&gt;</button>
-
-</div>
-
     <div id="findConsultant">
         <div id="consultantChild1">
             <div>
@@ -592,18 +683,18 @@ justify-content: center;
             <div>
                 <p>Let’s Get Social</p>
                 <div>
-                    <img class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/3128/3128208.png" alt="">
-                    <img  class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/3128/3128212.png" alt="">
-                    <img class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/25/25425.png" alt="">
-                    <img  class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt="">
-                    <img  class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/2594/2594917.png" alt="">
+                    <img onclick="facebook()" class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/3128/3128208.png" alt="">
+                    <img onclick="twiter()" class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/3128/3128212.png" alt="">
+                    <img onclick="instagram()" class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/25/25425.png" alt="">
+                    <img onclick="youtube()" class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/1384/1384028.png" alt="">
+                    <img onclick="pinarest()" class="socialIcon" src="https://cdn-icons-png.flaticon.com/128/2594/2594917.png" alt="">
                 </div>
             </div>
         </div>
         <p>
             ____________________________________________________________________________________________________________________________________________________________________________________________
         </p>
-    <p id="lastTuch" >© 2022 Rodan & Fields Privacy Policy |
+        <p id="lastTuch" >© 2022 Rodan & Fields Privacy Policy |
         Terms & Conditions |
         Accessibility |
         California Supply Chains Act |
@@ -617,7 +708,7 @@ justify-content: center;
 
 </body>
 </html>
-<script src="index.js"></script>
+<script  src="index.js"></script>
 
   
         

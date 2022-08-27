@@ -5,6 +5,8 @@ let imgo=document.getElementById("imgo")
 
 function appen(Ano){
     large.innerHTML=null;
+    let div=document.createElement("div")
+    div.setAttribute("id","ratcont")
     let image=document.createElement("img")
     image.src=Ano.image;
     let p=document.createElement("p")
@@ -23,15 +25,21 @@ function appen(Ano){
     let price=document.createElement("h2")
     price.innerText= " $"+ Ano.price;
     let de=document.createElement("span")
-    de.innerText="Best Seller"
+    de.innerText="Best Seller";
+    let str=document.createElement("img")
+    str.src=Ano.star;
+    let rt=document.createElement("h5")
+    rt.innerText=Ano.rat;
     
     let more=document.createElement("div")
+    more.setAttribute("id","merg")
     let day=document.createElement("h4")
     day.innerText="60 Day Money Back Guarantee";
+    div.append(str,rt)
     more.append(day);
 
     large.append(image);
-    imgo.append(name,p,size,price,btn,more)
+    imgo.append(name,p,size,div,price,btn,more)
 }
 appen(Ano)
 let cart=JSON.parse(localStorage.getItem("cart")) || [];
