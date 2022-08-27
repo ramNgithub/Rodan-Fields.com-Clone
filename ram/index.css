@@ -3,6 +3,7 @@
     height:600px;
     display: flex;
     justify-content: space-between;
+    margin-top: 70px;
 }#header>img{
     height:100%;
     width:100%;
@@ -47,10 +48,11 @@
     cursor: pointer;
 }
 #bestSeller{
-    font-size: 20px;
+    font-size: 15px;
     display: flex;
     justify-content: end;
-    margin-top: -50px;
+    margin-top: -60px;
+    color: black;
 }
 #derm_designed{
     /* border:solid red; */
@@ -121,7 +123,8 @@
     grid-template-columns: repeat(3,1fr);
     gap:20px;
     margin-top: 50px;
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    margin-bottom: 30px;
 }
 .doctor{
     /* border:solid blue; */
@@ -222,3 +225,178 @@
     margin-top: 30px;
     margin-left: 110px;
    }
+
+
+
+
+
+   /* _______________________________________________________________ */
+
+
+
+   nav{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+    .line{
+       border-bottom: 1px solid black;
+       display: block;
+    }
+   .navbar{
+       background-color: white;
+       width: 100%;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+   .navbar div{
+    justify-content: space-between;
+       align-items: center;
+   }
+   .navbar img{
+    margin-left: 380px;
+    cursor: pointer;
+   }
+   .navbar h3{
+    margin-left: 20px;
+   }
+   .icon{
+    display: flex;
+    padding-left: 300px;
+   }
+   .icon >p>a{
+    font-size: 16px;
+    padding: 10px;
+    color: rgb(8, 7, 7);
+   }
+   #right{
+       display: inline-block;
+       margin: 1px;
+   }
+   /* div{
+       align-items: center;
+       width: 50%;
+       justify-content: center;
+   } */
+   .navbar ul{
+       overflow: auto;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+      
+   }
+   .topp{
+       margin: 20px;
+       align-items: center;
+   }
+   .navbar li{
+       list-style: none;
+       margin: 16px 25px;
+   }
+   .navbar li a{
+       display: inline-block;
+       text-decoration: none;
+       color: black;
+       margin-left: 20px;
+       margin-right: 20px;
+       font-size: 12px;
+   }
+   .navbar ul li ul{
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background: #fff;
+
+   }
+   .navbar ul li ul li{
+    width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+   }
+   .icon{
+       margin-top: 30px;
+   }
+   .icon a{
+       text-decoration: none;
+       font-size: 30px;
+       margin-right: 15px;
+       color: #ababab;
+       display: inline-block;
+       transition: transform 0.5s;
+   }
+   .icon a:hover{
+       color: #ff004f;
+       transform: translate(-5px);
+   }
+   .icon button{
+       border: 0;
+       border-radius: 50%;
+       width: 15px;
+       height: 15px;
+       cursor: pointer;
+   
+   }
+   /* ----------middle--------------- */
+   /* *{
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+    box-sizing: border-box;
+} */
+.middle{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    background: #fff;
+    font-size: 16px;
+}
+.middle > ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+.middle a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+
+}
+.middle ul li{
+    color: #fff;
+    list-style: none;
+    transition: 3s;
+}
+.middle >ul>li>a{
+    padding: 15px 25px;
+}
+.middle ul.menu-area{
+    padding: 40px 40px 0 40px;
+    background: #fff;
+    text-align: left;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.6);
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    top: -9999px;
+    left: 0;
+}
+.middle ul li:hover ul.menu-area{
+    top: 100%;
+}
+.middle ul.menu-area ul{
+    width: 25%;
+    margin-bottom: 40px;
+    margin-left: 400px;
+}
+.middle ul.menu-area ul li a{
+    margin-top: 10px;
+    color: #000;
+    text-transform: none;
+}

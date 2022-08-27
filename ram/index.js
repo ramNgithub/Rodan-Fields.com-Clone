@@ -1,4 +1,18 @@
  // let flag=0;
+
+
+ 
+//  --------------------------------------
+
+
+
+
+
+
+
+
+
+ 
  let left=1;
  let right=5;
 
@@ -285,3 +299,64 @@ function addCart11(){
     localStorage.setItem("cart",JSON.stringify(Cart))
 
 }
+
+function facebook(){
+    window.location.href="https://www.facebook.com/rodanandfields"
+}
+function twiter(){
+    window.location.href="https://twitter.com/RodanFieldsHQ"
+}
+function instagram(){
+    window.location.href="https://www.instagram.com/rodanandfields/"
+}
+function youtube(){
+    window.location.href="https://www.youtube.com/RodanFields"
+}
+function pinarest(){
+    window.location.href="https://www.pinterest.com/RodanandFields/"
+}
+
+
+
+let cartLS = JSON.parse(localStorage.getItem("cart")) || [];
+let container= document.getElementById("container");
+let h1=document.getElementById("total");
+let Number=document.getElementById("countNumber")
+
+
+ let sum=0;
+ 
+//  console.log(cartLS.length)
+//  console.log(cartLS);
+ let Display= (cartLS)=>{
+    Number.innerText=cartLS.length;
+     container.innerHTML=null;
+    
+   cartLS.forEach(function (ele){
+     let div=document.createElement("div");
+     let img=document.createElement("img");
+     img.src=ele.image;
+     let name=document.createElement("h2");
+     name.innerText=ele.name;
+     let price=document.createElement("h4");
+     price.innerText=ele.price;
+ 
+     sum+=parseInt(ele.price)
+    // let h1=document.getElementById("total");
+     h1.innerText="Total:- "+sum
+     
+    
+     
+     div.append(img,name,price);
+     container.append(div);
+   })
+   
+
+ }
+ 
+ Display(cartLS);
+
+ function inde(){
+    window.location.href=""
+ }
+
