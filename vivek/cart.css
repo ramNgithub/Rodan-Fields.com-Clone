@@ -1,6 +1,6 @@
 body>div{
-    width: 360px;
-    height: 600px;
+    width: 100%;
+    height: auto;
     margin: auto;
     text-align: center;
     padding-top: 20px;
@@ -8,7 +8,7 @@ body>div{
     border: 1px solid gray;
     background-color: white;
     border-radius: 3px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
     align-items: center;
 }
 .line{
@@ -41,4 +41,9 @@ button a{
     text-decoration: none;
     color:white;
     font-size: 18px;
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+
 }
