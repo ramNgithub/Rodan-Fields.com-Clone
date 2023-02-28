@@ -1,6 +1,14 @@
 # Rodan+Fields-Clone
 R+F, is an American multi-level marketing company specializing in skincare products. Katie Rodan and Kathy A. Fields, creators of Proactiv, started the Rodan + Fields brand in 2002 and sold it a year later.
 
+# Teammates name:
+- [@ramNgithub](https://github.com/ramNgithub)
+- [@VivekMaurya04](https://github.com/VivekMaurya04)
+- [@Rahulzhpv](https://github.com/Rahulzhp) 
+- [@srinetanuj](https://github.com/srinetanuj)
+- [@Mayuulove02](https://github.com/Mayuulove02)
+
+
 # Teach-Stack
 HTML | CSS | JavaScript
 
